@@ -5,7 +5,7 @@ This project focuses on clean design, card layouts, and responsive structure usi
 
 ---
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd621731-34c0-4f15-b6e1-a2d96745bccf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9cb79975-109e-4b52-bedf-aa9790be33b4" />
 
 ---
 
