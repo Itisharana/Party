@@ -43,7 +43,7 @@ body {
 .search-box {
     position: relative;
     width: 40%;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .search-box input {
@@ -60,7 +60,26 @@ body {
     transform: translateY(-50%);
     font-size: 16px;
     color: gray;
-    pointer-events: none;
+}
+
+/* HERO TEXT */
+.hero-section {
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.hero-title span {
+    color: rgb(124, 15, 134);
+}
+
+.hero-subtitle {
+    color: #555;
+    margin-top: 10px;
 }
 
 /* CARD */
@@ -68,6 +87,14 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+    height: 450px;
+}
+
+/* IMAGE */
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* OVERLAY */
@@ -83,17 +110,19 @@ body {
     padding: 20px 30px;
     border-radius: 12px;
     text-align: center;
+    width: 60%;
 }
 
 /* BUTTON */
 .card-button {
     padding: 6px 25px;
-    background: rgb(198, 195, 195);
+    color: white;
+    background: rgb(109, 10, 126);
     border: none;
     font-size: large;
 }
 
-/* HOVER EFFECT */
+/* HOVER */
 .card:hover .overlay-text {
     background: rgba(255, 255, 255, 0.7);
     transition: 0.3s;
